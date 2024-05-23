@@ -1,0 +1,29 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén uno debajo del otro */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px; /* Añade separación debajo del h1 */
+}
+
+p {
+    font-size: 2em;
+    color: #666;
+    margin-top: 20px; /* Añade separación encima del p */
+}
